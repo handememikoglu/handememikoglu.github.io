@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 1440px;
+}
+.container {
+    width: 1440px;
+}
+.header {
+    width: 1440px;
+    background-color: #FFC9BA;
+    display: flex;
+    justify-content: space-around;
+    padding-block: 24px;
+    margin-bottom: 123px;
+}
+.bg {
+    background-color: #FFC9BA;
+}
+.navbar {
+    display: flex;
+    gap: 32px;
+}
+.header-info {
+    background-color: #FFC9BA;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 56px;
+}
+.info {
+    width: 373px;
+    margin-bottom: 136px;
+}
+.info h1 {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+    color: #212121;
+    margin-bottom: 16px;
+}
+.info p {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #212121;
+    margin-bottom: 32px;
+}
+.info h3 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #212121;
+}
+.logos {
+    width: 1110px;
+    margin-inline: auto;
+}
+.logos p {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #807E7E;
+    margin-bottom: 24px;
+}
+.logo {
+    display: flex;
+    gap: 94.4px;
+    margin-bottom: 64px;
+}
+.firstProducts {
+    width: 1110px;
+    display: flex;
+    gap: 24px;
+    margin-inline: auto;
+    margin-bottom: 128px;
+}
+.sofa {
+    background-color: #E6F0FF;
+    width: 637px;
+}
+.lamp {
+    background-color: #FAFAFB;
+    width: 637px;
+}
+.firstProducts p {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: #212121;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.featured-products {
+    width: 1110px;
+    margin-inline: auto;
+    margin-bottom: 128px;
+}
+.featureProduct {
+    display: flex;
+    gap: 84.37px;
+}
+.featured-products h3 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: #212121;
+    border-bottom: 1px solid #EAEAEA;
+    padding-bottom: 16px;
+    margin-bottom: 24px;
+}
+.featured-products p {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #807E7E;
+}
+.featured-products h4 {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #212121;
+}
+.featured-products h5 {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #212121;
+}
+.right-sofa {
+    width: 1110px;
+    display: flex;
+    gap: 64px;
+    margin-inline: auto;
+    justify-content: space-between;
+    margin-bottom: 136px;
+}
+.right-sofa-text {
+    width: 287px;
+}
+.right-sofa-text h2 {
+    margin-top: 128px;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37px;
+    text-align: left;
+    color: #212121;
+    margin-bottom: 8px;
+}
+.right-sofa-text p {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #212121;
+    margin-bottom: 40px;
+}
+.right-sofa-text a {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #212121;
+}
+.decoration {
+    width: 1110px;
+    margin-inline: auto;
+
+}
+.decoration p {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: #212121;
+    border-bottom: 1px solid #EAEAEA;
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+}
+.chairs {
+    width: 1110px;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.flowerchair {
+    width: 543px;
+    height: 411px;
+    background-image: url('/assets/css/img/flower-chair.png');
+    background-repeat: no-repeat;
+}
+.flowerchair a {
+    text-decoration: none;
+    padding: 16px 16px;
+    background-color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left; 
+    color: #212121;
+    border-radius: 6px;
+    margin-left: 24px;
+}
+.blackchair {
+    background-image: url('/assets/css/img/black-chair.png');
+    background-repeat: no-repeat;
+    width: 543px;
+    height: 411px;
+}
+.blackchair a {
+    text-decoration: none;
+    padding: 16px 16px;
+    background-color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left; 
+    color: #212121;
+    border-radius: 6px;
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.pots {
+    width: 1110px;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    margin-bottom: 136px;
+}
+.flowerpot {
+    background-image: url('/assets/css/img/flower-pot.png');
+    background-repeat: no-repeat;
+    width: 447px;
+    height: 411px;
+}
+.flowerpot a {
+    text-decoration: none;
+    padding: 16px 16px;
+    background-color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left; 
+    color: #212121;
+    border-radius: 6px;
+    margin-left: 24px;
+}
+.cactus {
+    background-image: url('/assets/css/img/cactus.png');
+    background-repeat: no-repeat;
+    width: 639px;
+    height: 411px;
+}
+.cactus a {
+    text-decoration: none;
+    padding: 16px 16px;
+    background-color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left; 
+    color: #212121;
+    border-radius: 6px;
+    margin-left: 24px;
+}
+.latest-articles {
+    width: 1110px;
+    margin-inline: auto;
+
+}
+.latest-text {
+    width: 1110px;
+    border-bottom: 1px solid #EAEAEA;
+    display: flex;
+    margin-inline: auto;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+}
+.latest-text h2 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: #212121;
+}
+.latest-text h3 {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #212121;
+}
+.latest-products {
+    width: 1110px;
+    margin-inline: auto;
+    display: flex;
+    gap: 23.5px;
+}
+.brown img {
+    margin-bottom: 16px;
+}
+.latest-products p {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #807E7E;
+}
+.latest-products h5 {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #212121;
+}
+.yellow img {
+    margin-bottom: 16px;
+}
+.wall-deco img {
+    margin-bottom: 16px;
+}
+.chair-people img {
+    margin-bottom: 16px;
+}
