@@ -1,0 +1,630 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 1440px;
+}
+.container {
+    width: 1440px;
+    margin-inline: auto;
+}
+.header {
+    background-image: url('/assets/css/img/saas-2-bg.png');
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 919px;
+    margin-bottom: 60.05px;
+}
+.header-navbar {
+    display: flex;
+    padding-block: 32px;
+    justify-content: space-between;
+}
+.bg {
+    margin-left: 115px;
+}
+.header-info {
+    display: flex;
+    gap: 48px;
+    margin-right: 165px;
+    margin-bottom: 92px;
+}
+.header-info a {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.get-started {
+    text-align: center;
+    width: 859px;
+    margin-inline: auto;
+}
+
+.get-started-text h1 {
+    font-family: Montserrat;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 81px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.get-started-text p {
+    width: 605px;
+    margin-inline: auto;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.get-started a {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 16px 72px;
+    background-color: #094BAC;
+    border-radius: 40px;
+}
+.logos {
+    width: 1110px;
+    margin-inline: auto;
+    display: flex;
+    gap: 72.4px;
+    margin-bottom: 136px;
+}
+.content {
+    width: 1110px;
+    margin-inline: auto;
+    display: flex;
+    gap: 24px;
+    margin-bottom: 200px;
+}
+.custom-icon {
+    width: 354px;
+    background-color: #FAFAFB;
+}
+.content img {
+    margin-bottom: 16px;
+}
+.content h3 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: #212121;
+    margin-bottom: 4px;
+    margin-left: 32px;
+}
+.content p {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #52647C;
+    margin-left: 32px;
+}
+.protection {
+    width: 354px;
+    background-color: #FAFAFB;
+}
+.online {
+    width: 354px;
+    background-color: #FAFAFB;
+}
+.global {
+    width: 1110px;
+    display: flex;
+    /* gap: 72px; */
+    margin-inline: auto;
+    margin-bottom: 240px;
+}
+.global-text {
+    width: 494px;
+}
+.global-text h2 {
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+    color: #212121;
+    margin-bottom: 16px;
+}
+.global-text p {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #52647C;
+    margin-bottom: 40px;
+}
+.text-no1 {
+    display:flex ;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+.text-no1 h3 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: #212121;
+}
+.text-no2 {
+    display: flex;
+    gap: 24px;
+    padding: 32px 32px;
+    background-color: #FAFAFB;
+    border-radius: 24px;
+    margin-bottom: 32px;
+}
+.text-no2 h3 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: #212121;
+}
+.text-no3 {
+    display: flex;
+    gap: 24px;
+}
+.text-no3 h3 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: #212121;
+}
+.loyal-customers {
+    width: 1110px;
+    margin-inline: auto;
+    display: flex;
+    gap: 152px;
+    margin-bottom: 200px;
+}
+.loyal-customers-text {
+    width: 540px;
+}
+.loyal-customers-text h2 {
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+    color: #212121;
+    margin-bottom: 16px;
+}
+.loyal-customers-text p {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #52647C;
+    margin-bottom: 32px;
+}
+.loyal-customers-text a {
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 16px 40px;
+    background-color: #094BAC;
+    border-radius: 40px;
+}
+.profiles {
+    width: 1110px;
+    display: flex;
+    margin-inline: auto;
+    gap: 24px;
+    margin-bottom: 39px;
+}
+.profiles-title {
+    width: 354px;
+}
+.profiles-title h2 {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color: #212121;
+    margin-bottom: 8px;
+}
+.profiles-title p {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #52647C;
+}
+.dots {
+    
+}
+.sammy-profile {
+    width: 354px;
+    background-color: #FAFAFB;
+    border-radius: 12px;
+}
+.sammy-avatar {
+    display: flex;
+    gap: 6px;
+    border-bottom: 1px solid #EAEAEA;
+    padding-bottom: 17px;
+}
+.sammy-avatar-text h5 {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    color: #212121;
+}
+.sammy-avatar-text p {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #52647C;
+}
+.sammy-t p {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #52647C;
+    margin-top: 16px;
+}
+.sammy-t img {
+    float: right;
+    margin-top: 32px;
+}
+.henry-profile {
+    width: 354px;
+    background-color: #FAFAFB;
+    border-radius: 12px;
+}
+.henry-avatar {
+    display: flex;
+    gap: 6px;
+    border-bottom: 1px solid #EAEAEA;
+    padding-bottom: 17px;
+}
+.henry-avatar-text h5 {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    color: #212121;
+}
+.henry-avatar-text p {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #52647C;
+}
+.henry-t p {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #52647C;
+    margin-top: 16px;
+}
+.henry-t img {
+    float: right;
+    margin-top: 32px;
+}
+.dots {
+    margin-left: 869px;
+    margin-bottom: 128px;
+}
+.latest-articles {
+    width: 1110px;
+    margin-inline: auto;
+    margin-bottom: 93px;
+}
+.latest-articles h4 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: #212121;
+    margin-bottom: 8px;
+}
+.latest-articles h2 {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color: #212121;
+    margin-bottom: 48px;
+}
+.article {
+    display: flex;
+    gap: 56px;
+}
+.ahtapot {
+    width: 322px;
+    background-color: #FAFAFB;
+}
+.ahtapot img {
+    margin-bottom: 24px;
+}
+.ahtapot-takvim {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+.ahtapot-takvim p {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #52647C;
+}
+.latest-articles h3 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: #212121;
+    margin-bottom: 8px;
+}
+.latest-articles p {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #52647C;
+}
+.phone {
+    width: 322px;
+    background-color: #FAFAFB;
+}
+.phone img {
+    margin-bottom: 24px;
+}
+.phone-takvim {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+.phone-takvim p {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #52647C;
+}
+.grafik {
+    width: 322px;
+}
+.grafik img {
+    margin-bottom: 24px;
+    background-color: #FAFAFB;
+}
+.grafik-takvim {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+.grafik-takvim p {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #52647C;
+}
+.inbox {
+    width: 1110px;
+    height: 354px;
+    background-image: url('/assets/css/img/saas2-bg2.png');
+    background-repeat: no-repeat;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 120px;
+}
+.inbox-text {
+    width: 426px;
+    align-content: center;
+}
+.inbox-text h3 {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.placeholder {
+    display: flex;
+}
+.placeholder p {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #959393;
+    padding: 12px 16px;
+    background-color: #FFFFFF;
+    width: 304px;
+    margin-bottom: 8px;
+}
+.inbox-text h6 {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.last-part {
+    width: 1440px;
+}
+.last-part hr {
+    border-top: 1px solid #EAEAEA;
+    margin-bottom: 70.75px;
+}
+.last-part-table {
+    width: 1110px;
+    margin-inline: auto;
+}
+.column {
+    display: flex;
+    gap: 165px;
+    margin-bottom: 8px;
+}
+.column p {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #3F3B3B;
+}
+.link-one {
+    display: flex;
+    gap: 165px;
+    margin-bottom: 8px;
+}
+.link-one p {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #3F3B3B;
+}
+.link-one-second {
+    margin-left: 30px;
+}
+.link-one-third {
+    margin-left: 55px;
+}
+.link-one-fourth {
+    margin-left: 32px;
+}
+.link-two {
+    display: flex;
+    gap: 165px;
+}
+.link-two p {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #3F3B3B;
+    margin-bottom: 8px;
+}
+.link-two-second {
+    margin-left: 30px;
+}
+.link-two-third {
+    margin-left: 56px;
+}
+.link-two-fourth {
+    margin-left: 33px;
+}
+.link-three {
+    display: flex;
+    gap: 165px;
+    margin-bottom: 8px;
+}
+.link-three p {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #3F3B3B;
+}
+.link-three-second {
+    margin-left: 20px;
+}
+.link-three-third {
+    margin-left: 44px;
+}
+.link-three-fourth {
+    margin-left: 24px;
+}
+.link-four {
+    display: flex;
+    gap: 165px;
+    margin-bottom: 72px;
+}
+.link-four p {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #3F3B3B;
+}
+.link-four-second {
+    margin-left: 26px;
+}
+.link-four-third {
+    margin-left: 54px;
+}
+.link-four-fourth {
+    margin-left: 32px;
+}
+.footer {
+    width: 1110px;
+    display: flex;
+    margin-inline: auto;
+    justify-content: space-between;
+}
+.social-media {
+    display: flex;
+    gap: 40px;
+}
