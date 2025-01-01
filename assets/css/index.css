@@ -38,3 +38,16 @@ body {
     line-height: 21px;
     text-align: center;
 }
+.button2 a {
+    display: block;
+    padding: 20px 80px;
+    background-color: #A3927E;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    text-decoration: none;
+    color: #423C34;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: center;
+}
